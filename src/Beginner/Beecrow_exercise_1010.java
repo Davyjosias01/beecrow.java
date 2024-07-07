@@ -20,7 +20,7 @@ public class Beecrow_exercise_1010 {
 		price = sc.nextDouble();
 		fPrice = fPrice + price * quant;
 		
-		System.out.printf("VALOR A PAGAR: R$ %.2f", fPrice);
+		System.out.printf("VALOR A PAGAR: R$ %.2f\n", fPrice);
 		
 		sc.close();
 	}
